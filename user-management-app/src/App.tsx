@@ -1,10 +1,13 @@
+import {BrowserRouter,Routes, Route} from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 
 function App() {
  
   return (
-    <>
-    <h1 className="text-5xl bg-blue-700 w-full">hello</h1>
-     </>
+    <BrowserRouter>
+      <Toaster />
+      <h1 className="text-5xl bg-blue-700 w-full">hello</h1>
+    </BrowserRouter>
   )
 }
 
