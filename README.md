@@ -5,7 +5,7 @@
 ### A modern User Management CRUD application built with React + TypeScript + Tailwind CSS v4
 
 
-## [Live Demo](#) 
+## [https://react-user-management-dashboard-chi.vercel.app/](https://react-user-management-dashboard-chi.vercel.app/) 
 
 </div>
 
