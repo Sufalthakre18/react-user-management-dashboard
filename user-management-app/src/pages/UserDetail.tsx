@@ -57,7 +57,7 @@ const UserDetail = () => {
         <div className="bg-bg-card border border-border rounded-card p-8">
           {/* Header */}
           <div className="flex items-center gap-5 mb-8 pb-6 border-b border-border flex-wrap">
-            <div className="w-20 h-20 rounded-full bg-linear-to-br from-teal to-amber flex items-center justify-center text-2xl font-bold text-bg-primary shrink-0">
+            <div className="w-20 h-20 rounded-full bg-amber flex items-center justify-center text-2xl font-bold text-bg-primary shrink-0">
               {initials(user.name)}
             </div>
             <div>

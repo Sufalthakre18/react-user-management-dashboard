@@ -8,7 +8,7 @@ import UserDetail from './pages/UserDetail';
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-[var(--color-bg-primary)] font-sans">
+      <div className="min-h-screen bg-bg-primary font-sans">
 
         {/* Toast Notifications */}
         <Toaster

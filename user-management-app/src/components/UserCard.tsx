@@ -12,10 +12,10 @@ const initials = (name: string) =>
   name.split(' ').map((n) => n[0]).join('').toUpperCase().slice(0, 2);
 
 const UserCard = ({ user, onEdit, onDelete }: Props) => (
-  <div className="group bg-bg-card border border-border rounded-cardp-6 transition-all duration-250 hover:border-teal hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(0,229,200,0.1)]">
+  <div className="group bg-bg-card border border-border rounded-l p-3 transition-all duration-250 hover:border-teal hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(0,229,200,0.1)]">
     {/* Header: avatar + name */}
     <div className="flex items-center gap-4 mb-4">
-      <div className="w-12 h-12 rounded-full bg-linear-to-br from-teal to-amber flex items-center justify-center text-sm font-bold text-bg-primary shrink-0">
+      <div className="w-12 h-12 rounded-full bg-amber flex items-center justify-center text-sm font-bold text-bg-primary shrink-0">
         {initials(user.name)}
       </div>
       <div className="min-w-0">
